@@ -1,0 +1,29 @@
+git config :  Set or get configuration options.
+    --global , -g  : This Specifies that the configuration should be applied globally for the user.
+                    Ex :-  git config --global user.name "Your Name"
+
+    --local        : This Specifies that the configuration should be applied to the current Git repository only.
+                    Ex :- git config --local core.editor "vim"
+  
+    --system       : Specifies that the configuration should be applied system-wide, affecting all users on the machine.
+                    Ex:- git config --system core.autocrlf true
+  
+    --list or -l   : This Lists all the configuration settings.
+                    Ex :- git config --list
+  
+    --get          :This Retrieves the value of a specific configuration option.
+                    Ex :- git config --get user.email
+  
+    --unset        :This Removes a specific configuration option.
+                    Ex :- git config --unset core.editor
+    --unset-all    :This Removes all instances of a specific configuration option.
+                    Ex :- git config --unset-all user.email
+    --replace-all  :This Replaces all instances of a specific configuration option.
+                    Ex :- git config --replace-all core.editor "nano"
+    --bool         :This Forces the configuration value to be interpreted as a boolean.
+                    Ex :- git config --bool core.autocrlf false
+    --int --integer:This Forces the configuration value to be interpreted as an integer.
+                    Ex :- git config --int core.filemode 0644
+
+
+These flags allow you to control where and how Git configuration settings are applied. The --global, --local, and --system flags are particularly useful for specifying the scope of the configuration.
