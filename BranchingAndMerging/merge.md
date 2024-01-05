@@ -14,6 +14,7 @@ Combine multiple sequences of commits into one unified history.
 
 
 #### Example Usage :
+Merging Changes :
 1. git merge branch-name         # Merge changes from a specified branch
 2. git merge --squash branch-name    # Merge changes without committing
 
