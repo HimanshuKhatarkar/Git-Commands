@@ -12,3 +12,8 @@ Combine multiple sequences of commits into one unified history.
 1. --no-ff: Force a merge commit even if it's a fast-forward.
 2. --squash: Merge changes but don't create a commit, allows combining commits.
 
+
+#### Example Usage :
+1. git merge branch-name         # Merge changes from a specified branch
+2. git merge --squash branch-name    # Merge changes without committing
+
