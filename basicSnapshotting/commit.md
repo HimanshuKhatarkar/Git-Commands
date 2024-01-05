@@ -1,4 +1,4 @@
-## git commit: 
+## `git commit` : 
 Record changes to the repository with a commit message.
 
 ### Basic syntax:
