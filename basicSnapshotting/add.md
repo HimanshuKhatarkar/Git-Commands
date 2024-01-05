@@ -1,8 +1,7 @@
-## Basic Snapshotting
 
-Snapshotting in Git refers to capturing the current state of your files and saving it as a commit.
 
-### `git add`: Add file contents to the index (staging area) to prepare for a commit.
+## `git add` : 
+Add file contents to the index (staging area) to prepare for a commit.
 
 #### Basic Syntax:
 `git add <command / flag> <file/name>` :
