@@ -12,3 +12,8 @@ List, create, or delete branches.
 2. -d, --delete: Delete a specified branch.
 3. -m, --move: Rename a branch.
 
+#### Example Usage:
+Listing Branches:
+
+1. git branch                    # List all local branches
+2. git branch -a                 # List all local and remote branch
