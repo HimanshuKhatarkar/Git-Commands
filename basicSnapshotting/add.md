@@ -15,6 +15,6 @@ Snapshotting in Git refers to capturing the current state of your files and savi
 ### Example Usage:
 Adding Files to the Staging Area:
 
-1. git add file.txt            # Add a specific file to the staging area
-2. git add .                   # Add all changes to the staging area
-3. git add -p                  # Interactively select changes to stage
+1. git add file.txt       ->      Add a specific file to the staging area
+2. git add .              ->      Add all changes to the staging area
+3. git add -p             ->      Interactively select changes to stage
